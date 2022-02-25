@@ -1,3 +1,5 @@
+# Ejercicio 2 - Palíndromos
+
 def Palindromo(palabra):
   palabra_upper = palabra.upper().split()
   if ''.join(palabra_upper) == ''.join(palabra_upper)[::-1]:
