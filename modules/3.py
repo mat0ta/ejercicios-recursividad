@@ -1,3 +1,4 @@
+# Ejercicio 3 - La bandera de Dijkstra
 r = 'ROJO'
 a = 'AZUL'
 v = 'VERDE'

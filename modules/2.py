@@ -1,5 +1,4 @@
 # Ejercicio 2 - Palíndromos
-
 import unidecode
 
 def Palindromo(palabra):
