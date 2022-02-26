@@ -3,7 +3,7 @@
 import unidecode
 
 def Palindromo(palabra):
-  palabra = unidecode.unidecode(palabra)
+  palabra = unidecode.unidecode(palabra.replace(" ", ""))
   palabra_upper = palabra.upper().split()
   if ''.join(palabra_upper) == ''.join(palabra_upper)[::-1]:
     print('Es palíndromo')
