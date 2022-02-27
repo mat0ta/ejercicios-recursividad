@@ -5,6 +5,9 @@
 
 <h2>Ejercicio 1. Búsqueda por dicotomía en una tabla ordenada</h2>
 
+Dada una tabla desordenada alfabéticamente se pide crear un algoritmo que la ordene y busque la posición en la misma de una palabra en específico. 
+La función empleada para crear dicho algoritmo es la siguiente:
+
 ```py
 palabras = ['Rusia', 'Rococo', 'Ramadan', 'Roedor', 'Alimento']
 palabra = " "
@@ -51,9 +54,10 @@ def Busqueda():
         Busqueda()
 ```
 
-***
-
 <h2>Ejercicio 2. Palíndromos</h2>
+
+El ejercicio requiere de la creación de un algoritmo que indique si una palabra introducida es palíndromo o no.
+La función empleada para crear dicho algoritmo es la siguiente:
 
 ```py
 import unidecode
@@ -67,9 +71,10 @@ def Palindromo(palabra):
     print('No es palíndromo')
 ```
 
-***
-
 <h2>Ejercicio 3. La bandera de Dijkstra</h2>
+
+Dada una lista de colores desordenada pide que esta sea ordenada por colores empleando recursividad.
+La función empleada para crear dicho algoritmo es la siguiente:
 
 ```py
 r = 'ROJO'
