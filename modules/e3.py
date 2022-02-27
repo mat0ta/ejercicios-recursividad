@@ -42,6 +42,5 @@ def Bandera():
     if posicion_ >= len(bandera) and len(bandera_ordenada) < len(bandera):
       posicion_ = 0
       Bandera()
-  
-Bandera()
-print(bandera_ordenada)
+  elif len(bandera) == len(bandera_ordenada):
+    print(bandera_ordenada)
